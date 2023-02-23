@@ -1,0 +1,26 @@
+.wrapper {
+  max-width: 1200px;
+  width: 100%;
+  margin: 48px auto 0;
+}
+
+.title {
+  font-size: 78px;
+  font-weight: 700;
+}
+
+.description {
+  display: flex;
+  font-size: 20px;
+  font-weight: 700;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.descriptionIcon {
+  margin-right: 10px;
+}
+
+.descriptionButton {
+  margin-top: 20px;
+}

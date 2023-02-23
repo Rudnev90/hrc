@@ -1,3 +1,56 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": ["next/core-web-vitals", "eslint:recommended", "plugin:@typescript-eslint/recommended"],
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint", "eslint-plugin-import-helpers"],
+  "rules": {
+    "@typescript-eslint/naming-convention": [
+      "error",
+      {
+        "selector": "variable",
+        "format": ["camelCase", "UPPER_CASE", "PascalCase"],
+        "leadingUnderscore": "allow",
+        "trailingUnderscore": "allow"
+      },
+      {
+        "selector": ["function"],
+        "format": ["camelCase", "PascalCase"],
+        "leadingUnderscore": "allow"
+      },
+      {
+        // Run-time type check constructors
+        "selector": ["function"],
+        "format": ["camelCase", "PascalCase"],
+        "leadingUnderscore": "allow",
+        "prefix": ["T"]
+      },
+      {
+        // double underscored rule for protected members third-party libraries conventions (eg. { __html: string } in React)
+        "selector": ["property"],
+        "format": ["camelCase", "PascalCase", "UPPER_CASE"],
+        "leadingUnderscore": "allow",
+        "trailingUnderscore": "allow",
+        "filter": {
+          "regex": "^(__|_)([0-9A-Za-z]+)$",
+          "match": false
+        }
+      }
+    ],
+    "import-helpers/order-imports": [2, {
+      "groups": [
+        "/^react$/",
+        "module",
+        "/^~/",
+        "parent",
+        ["sibling", "index"]
+      ],
+      "newlinesBetween": "always",
+      "alphabetize": {
+        "order": "asc",
+        "ignoreCase": true
+      }
+    }],
+    "quotes": ["error", "single", { "allowTemplateLiterals": true }],
+    "comma-dangle": ["error", "only-multiline"],
+    "semi": "error"
+  }
 }

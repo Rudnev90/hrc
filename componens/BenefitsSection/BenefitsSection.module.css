@@ -1,0 +1,21 @@
+.wrapper {
+  max-width: 960px;
+  width: 100%;
+  margin: 112px auto 0;
+}
+
+.title {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 48px;
+}
+
+.itemTitle {
+  font-size: 28px;
+  margin-top: 16px;
+}
+
+.itemDescription {
+  margin-top: 16px;
+  padding-bottom: 48px;
+}

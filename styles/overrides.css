@@ -1,0 +1,11 @@
+#__next {
+  height: 100%;
+}
+
+.ant-layout, .ant-layout-content {
+  height: 100%;
+}
+
+.ant-layout-header {
+  background-color: #ffffff;
+}

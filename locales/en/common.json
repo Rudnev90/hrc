@@ -1,0 +1,54 @@
+{
+  "mainMenu": {
+    "why": "Why Cyprus?",
+    "about": "About us",
+    "how": "How it works",
+    "lookingEmployees": "I'm looking for employees",
+    "sign": "Sign in"
+  },
+  "relocateSection": {
+    "title": "Cyprus ninja-hunting.",
+    "description": "Your resume becomes visible only once you've applied for a position. </br>How does it work?",
+    "button": "Send resume"
+  },
+  "workLifeBalanceSection": {
+    "title": "The work-life </br>balance you </br>seek",
+    "description": "Cyprus is not only about working at awesome IT-companies - the place also gives you the time to care for yourself. </br></br>It sets you free from stress and fills with energy. This is the balance everyone craves for."
+  },
+  "benefitsSection": {
+    "title": "And other factors",
+    "climate": {
+      "title": "Climate",
+      "description": "Cyprus is considered to have the most moderate and healthy climate in the world. Serious infectious diseases are extremely rare here, which helps support a robust immune system."
+    },
+    "cuisine": {
+      "title": "Cuisine",
+      "description": "Food in Cyprus is as healthy as it is tasty. Mediterranian diet, remarkable wineries within a 15-minute drive from home - just like in the movies."
+    },
+    "nature": {
+      "title": "Nature",
+      "description": "Cyprus - is the perfect place to regain shape after the winter off-season, prepare for new challenges and take part in local competitions."
+    },
+    "safety": {
+      "title": "Safety",
+      "description": "According to the 2019 global safety rating, Cyprus is one of the top 5 safest countries. Similar island rankings place Cyprus in a much higher position if compared to neighboring countries."
+    },
+    "medicine": {
+      "title": "Medicine",
+      "description": "Cyprus has everything you need to access high-quality medical services: premium insurance programs and GESY state program."
+    },
+    "education": {
+      "title": "Education",
+      "description": "Cyprus provides a high level of education with employment perspectives all across the EU, and it's easier to enter a Cypriot university or college in comparison to European ones."
+    }
+  },
+  "feedbackSection": {
+    "title": "Fill in the form <br/>and get ready to relocate",
+    "description": "We host only reliable vacancies from partner companies.",
+    "button": "Fill in the form"
+  },
+  "teamSection": {
+    "title": "Who are we?",
+    "description": "We walked the path of immigration on our own, <br/>and having learned its bumps, want to help you avoid them."
+  }
+}

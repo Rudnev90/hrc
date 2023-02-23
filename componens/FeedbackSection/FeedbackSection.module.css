@@ -1,0 +1,27 @@
+.sectionWrapper {
+  background-color: #f3faff;
+}
+
+.wrapper {
+  max-width: 1200px;
+  width: 100%;
+  margin: 48px auto 0;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.description {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.descriptionIcon {
+  margin-right: 10px;
+}
+
+.descriptionButton {
+  margin-top: 20px;
+}

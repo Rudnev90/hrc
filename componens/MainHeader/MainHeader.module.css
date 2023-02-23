@@ -1,0 +1,52 @@
+.headerMain {
+  padding-top: 49px;
+  padding-right: 68px;
+  padding-bottom: 49px;
+  padding-left: 68px;
+  background-color: #ffffff;
+}
+
+.list {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  height: 100%;
+  list-style: none;
+}
+
+.listItem {
+  margin-top: 0;
+  margin-right: 16px;
+  margin-bottom: 0;
+  margin-left: 16px;
+  font-weight: 700;
+}
+
+.left {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.locale {
+  padding-right: 55px;
+}
+
+.localeLink {
+  display: flex;
+}
+
+.localeIcon {
+  box-shadow: 0 0 6px #777;
+  display: block;
+  margin-right: 10px;
+}
+
+.sign {
+  padding-right: 10px;
+  font-size: 20px;
+  vertical-align: middle;
+}

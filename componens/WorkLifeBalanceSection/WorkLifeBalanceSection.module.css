@@ -1,0 +1,28 @@
+.sectionWrapper {
+  padding-top: 112px;
+  padding-right: 0;
+  padding-bottom: 112px;
+  padding-left: 0;
+  background-color: #f3faff;
+}
+
+.wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+  border-radius: 48px;
+  background-color: #ffffff;
+  padding-top: 48px;
+  padding-right: 48px;
+  padding-bottom: 48px;
+  padding-left: 48px;
+}
+
+.title {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.description {
+  margin-top: 18px;
+  font-size: 18px;
+}
