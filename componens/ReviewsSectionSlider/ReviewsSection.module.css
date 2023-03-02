@@ -1,0 +1,29 @@
+.slider {
+  max-width: 960px;
+  width: 100%;
+  margin: 40px auto 0;
+}
+
+.wrapper {
+  max-width: 420px;
+}
+
+.card {
+  max-width: 464px;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 16%);
+  color: #000;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+.name {
+  font-weight: 700;  
+}
+
+.image {
+  margin-right: 10px;
+}

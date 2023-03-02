@@ -77,7 +77,7 @@ body {
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
+  color: #303030;
   background: linear-gradient(to bottom,
       transparent,
       rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
@@ -95,10 +95,55 @@ a {
   }
 }
 
-.slick-slider .slick-list {
+.slick-arrow {
+  display: none;
+}
+
+.team-section-slider .slick-list {
   overflow: visible;
 }
 
-.slick-arrow {
-  display: none;
+.team-section-slider .slick-slide {
+  width: 440px;
+}
+
+.team-section-slider__dots {
+  display: flex;
+  max-width: 100px;
+  margin: 0 auto;
+  justify-content: space-between;
+  font-size: 0;
+  padding-top: 25px;
+}
+
+.team-section-slider__dots .slick-active button::after {
+  opacity: 1;
+}
+
+.team-section-slider__dots button {
+  position: relative;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  border: none;
+  font-size: 0;
+  line-height: 0;
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.team-section-slider__dots button::after {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  opacity: .25;
+  background-color: #000;
 }

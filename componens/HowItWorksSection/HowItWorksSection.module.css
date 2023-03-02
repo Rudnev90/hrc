@@ -1,0 +1,44 @@
+.wrapper {
+  max-width: 960px;
+  width: 100%;
+  margin: 122px auto;
+}
+
+.title {
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.list {
+  max-width: 500px;
+  width: 100%;
+  list-style: none;
+  padding-left: 20px;
+  margin: 0 auto;
+  margin-top: 48px;
+}
+
+.list li {
+  position: relative;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  color: #303030;
+  margin-bottom: 16px;
+}
+
+.list li:last-child {
+  margin-bottom: 0;
+}
+
+.list li:after {
+  position: absolute;
+  background-image: url('~/assets/how-it-works-section/list-item.svg');
+  content: '';
+  width: 32px;
+  height: 32px;
+  top: 50%;
+  margin-top: -16px;
+  left: -48px;
+}

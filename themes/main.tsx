@@ -6,4 +6,4 @@ export const mainTheme = {
     fontFamily: '',
     fontSize: 15,
   },
-}
+};

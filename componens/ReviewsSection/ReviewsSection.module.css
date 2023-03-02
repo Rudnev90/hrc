@@ -1,0 +1,18 @@
+.wrapper {
+    width: 100%;
+    margin: 122px auto 0;
+    background-color: #f3faff;
+    padding: 112px;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.description {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 48px;
+}

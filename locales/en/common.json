@@ -50,5 +50,17 @@
   "teamSection": {
     "title": "Who are we?",
     "description": "We walked the path of immigration on our own, <br/>and having learned its bumps, want to help you avoid them."
+  },
+  "reviewsSection": {
+    "title": "Already moved to Cyprus"
+  },
+  "howItWorksSection": {
+    "title": "Well, how does it work?",
+    "list": {
+      "1": "Sign up and attach link with your CV in profile",
+      "2": "We use a special algorithm to match your experience with the perfectly suitable positions!",
+      "3": "Get spot-on vacancies every week - no spam or irrelevant positions!",
+      "4": "Get an offer as promptly as possible and voila! You're in Cyprus!"
+    }
   }
 }
